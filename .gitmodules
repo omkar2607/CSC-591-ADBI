@@ -1,3 +1,6 @@
 [submodule "CSC-591_DataWrangling"]
 	path = CSC-591_DataWrangling
 	url = https://github.com/TusharDahibhate/CSC-591_DataWrangling.git
+[submodule "CSC-591_RecommenderSystem"]
+	path = CSC-591_RecommenderSystem
+	url = https://github.com/TusharDahibhate/CSC-591_RecommenderSystem.git
