@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0136)https://7yykmetxgv-colab.googleusercontent.com/v2/usercontent/a0aaf56835f51d5d/outputframe.html?vrz=colab-20190411-125300-RC00_243124421 -->
+<html theme="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+  // Avoid arrow function syntax to stay ES5 compatible for the sake of googlebot.
+  window.addEventListener('message', function(message)  {
+    if (message.source != window.parent) {
+      return;
+    }
+    if (message.data.sandboxed_iframe_evaluation) {
+      // Message is available in scope so evaluated script can get params from
+      // it.
+      window.currentMessage = message;
+      eval.call(null, message.data.sandboxed_iframe_evaluation);
+      delete window.currentMessage;
+    }
+  });
+</script>
+<!--<base href="https://localhost:8080/">--><base href="."><meta http-equiv="origin-trial" content="ArihOyH7sUkpbj/7MkbSBLJeTR2awLU1A+vatyAPY76s0B2TrIenFv504SQxCd7myUhfCUt5Hx8gtYWBbEJQPwEAAABxeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXVzZXJjb250ZW50LmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViQ29tcG9uZW50c1YwIiwiZXhwaXJ5IjoxNTU5NTgxNjE5LCJpc1N1YmRvbWFpbiI6dHJ1ZX0="><link rel="stylesheet" href="./outputframe.css"></head><body><div id="output-area"><span id="output-header"> </span><div id="output-body"><div class="stream output-id-4462"><div class="output_subarea output_text"><pre>Epoch 1/50
+92/93 [============================&gt;.] - ETA: 0s - loss: 0.4796 - dice_coef: 0.5204Epoch 1/50
+93/93 [==============================] - 109s 1s/step - loss: 0.4775 - dice_coef: 0.5225 - val_loss: 0.6035 - val_dice_coef: 0.3965
+Epoch 2/50
+93/93 [==============================] - 99s 1s/step - loss: 0.4679 - dice_coef: 0.5321 - val_loss: 0.6389 - val_dice_coef: 0.3611
+Epoch 3/50
+93/93 [==============================] - 99s 1s/step - loss: 0.4655 - dice_coef: 0.5345 - val_loss: 0.5913 - val_dice_coef: 0.4087
+Epoch 4/50
+93/93 [==============================] - 99s 1s/step - loss: 0.4579 - dice_coef: 0.5421 - val_loss: 0.6770 - val_dice_coef: 0.3230
+Epoch 5/50
+92/93 [============================&gt;.] - ETA: 0s - loss: 0.4844 - dice_coef: 0.5156Epoch 5/50
+93/93 [==============================] - 99s 1s/step - loss: 0.4816 - dice_coef: 0.5184 - val_loss: 0.6236 - val_dice_coef: 0.3764
+Epoch 6/50
+93/93 [==============================] - 99s 1s/step - loss: 0.4436 - dice_coef: 0.5564 - val_loss: 0.6796 - val_dice_coef: 0.3204
+
+Epoch 7/50
+93/93 [==============================] - 100s 1s/step - loss: 0.4037 - dice_coef: 0.5963 - val_loss: 0.5277 - val_dice_coef: 0.4723
+Epoch 8/50
+93/93 [==============================] - 99s 1s/step - loss: 0.3789 - dice_coef: 0.6211 - val_loss: 0.6351 - val_dice_coef: 0.3649
+Epoch 9/50
+93/93 [==============================] - 100s 1s/step - loss: 0.3414 - dice_coef: 0.6586 - val_loss: 0.3947 - val_dice_coef: 0.6053
+Epoch 9/50
+Epoch 10/50
+93/93 [==============================] - 100s 1s/step - loss: 0.3264 - dice_coef: 0.6736 - val_loss: 0.3289 - val_dice_coef: 0.6711
+Epoch 11/50
+
+93/93 [==============================] - 100s 1s/step - loss: 0.3498 - dice_coef: 0.6502 - val_loss: 0.8833 - val_dice_coef: 0.1167
+Epoch 12/50
+93/93 [==============================] - 100s 1s/step - loss: 0.3861 - dice_coef: 0.6139 - val_loss: 0.5321 - val_dice_coef: 0.4679
+Epoch 12/50
+Epoch 13/50
+92/93 [============================&gt;.] - ETA: 0s - loss: 0.3065 - dice_coef: 0.6935Epoch 13/50
+93/93 [==============================] - 100s 1s/step - loss: 0.3080 - dice_coef: 0.6920 - val_loss: 0.3505 - val_dice_coef: 0.6495
+Epoch 14/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2975 - dice_coef: 0.7025 - val_loss: 0.3391 - val_dice_coef: 0.6609
+Epoch 15/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2871 - dice_coef: 0.7129 - val_loss: 0.7441 - val_dice_coef: 0.2559
+Epoch 16/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2700 - dice_coef: 0.7300 - val_loss: 0.3108 - val_dice_coef: 0.6892
+Epoch 17/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2725 - dice_coef: 0.7275 - val_loss: 0.3428 - val_dice_coef: 0.6572
+Epoch 18/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2692 - dice_coef: 0.7308 - val_loss: 0.2975 - val_dice_coef: 0.7025
+Epoch 19/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2797 - dice_coef: 0.7203 - val_loss: 0.3165 - val_dice_coef: 0.6835
+Epoch 20/50
+
+93/93 [==============================] - 100s 1s/step - loss: 0.2787 - dice_coef: 0.7213 - val_loss: 0.2972 - val_dice_coef: 0.7028
+Epoch 20/50
+Epoch 21/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2693 - dice_coef: 0.7307 - val_loss: 0.3036 - val_dice_coef: 0.6964
+Epoch 22/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2746 - dice_coef: 0.7254 - val_loss: 0.3448 - val_dice_coef: 0.6552
+Epoch 23/50
+93/93 [==============================] - 100s 1s/step - loss: 0.3406 - dice_coef: 0.6594 - val_loss: 0.4563 - val_dice_coef: 0.5437
+
+Epoch 24/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2810 - dice_coef: 0.7190 - val_loss: 0.3102 - val_dice_coef: 0.6898
+Epoch 24/50Epoch 25/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2692 - dice_coef: 0.7308 - val_loss: 0.3184 - val_dice_coef: 0.6816
+
+Epoch 26/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2601 - dice_coef: 0.7399 - val_loss: 0.3062 - val_dice_coef: 0.6938
+Epoch 27/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2542 - dice_coef: 0.7458 - val_loss: 0.3131 - val_dice_coef: 0.6869
+Epoch 28/50
+Epoch 27/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2560 - dice_coef: 0.7440 - val_loss: 0.2857 - val_dice_coef: 0.7143
+Epoch 29/50
+92/93 [============================&gt;.] - ETA: 0s - loss: 0.2514 - dice_coef: 0.7486Epoch 29/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2532 - dice_coef: 0.7468 - val_loss: 0.3201 - val_dice_coef: 0.6799
+Epoch 30/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2725 - dice_coef: 0.7275 - val_loss: 0.2977 - val_dice_coef: 0.7023
+Epoch 31/50
+
+93/93 [==============================] - 99s 1s/step - loss: 0.2684 - dice_coef: 0.7316 - val_loss: 0.3310 - val_dice_coef: 0.6690
+Epoch 32/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2582 - dice_coef: 0.7418 - val_loss: 0.2980 - val_dice_coef: 0.7020
+Epoch 33/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2535 - dice_coef: 0.7465 - val_loss: 0.3165 - val_dice_coef: 0.6835
+Epoch 33/50
+Epoch 34/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2438 - dice_coef: 0.7562 - val_loss: 0.3317 - val_dice_coef: 0.6683
+
+Epoch 35/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2531 - dice_coef: 0.7469 - val_loss: 0.2936 - val_dice_coef: 0.7064
+Epoch 35/50
+Epoch 36/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2504 - dice_coef: 0.7496 - val_loss: 0.2940 - val_dice_coef: 0.7060
+
+Epoch 37/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2432 - dice_coef: 0.7568 - val_loss: 0.2711 - val_dice_coef: 0.7289
+Epoch 38/50
+Epoch 37/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2435 - dice_coef: 0.7565 - val_loss: 0.2838 - val_dice_coef: 0.7162
+Epoch 38/50
+Epoch 39/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2446 - dice_coef: 0.7554 - val_loss: 0.3171 - val_dice_coef: 0.6829
+Epoch 40/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2526 - dice_coef: 0.7474 - val_loss: 0.3021 - val_dice_coef: 0.6979
+Epoch 41/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2507 - dice_coef: 0.7493 - val_loss: 0.2736 - val_dice_coef: 0.7264
+
+Epoch 42/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2465 - dice_coef: 0.7535 - val_loss: 0.2811 - val_dice_coef: 0.7189
+Epoch 43/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2534 - dice_coef: 0.7466 - val_loss: 0.2984 - val_dice_coef: 0.7016
+Epoch 44/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2513 - dice_coef: 0.7487 - val_loss: 0.2823 - val_dice_coef: 0.7177
+Epoch 45/50
+93/93 [==============================] - 99s 1s/step - loss: 0.2479 - dice_coef: 0.7521 - val_loss: 0.3072 - val_dice_coef: 0.6928
+Epoch 46/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2563 - dice_coef: 0.7437 - val_loss: 0.2722 - val_dice_coef: 0.7278
+Epoch 47/50
+93/93 [==============================] - 100s 1s/step - loss: 0.2555 - dice_coef: 0.7445 - val_loss: 0.2876 - val_dice_coef: 0.7124
+Epoch 00047: early stopping
+Time taken:  4694848
+</pre></div></div></div><span id="output-footer"></span></div></body></html>
